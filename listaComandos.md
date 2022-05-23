@@ -22,3 +22,7 @@ Limpiar terminal
 ```bash
 clear
 ```
+Crear un archivo
+```bash
+touch <Nombre_archivo>
+```

@@ -1,0 +1,33 @@
+#### Ejercicio ####
+
+La empresa de transporte TURYBUS pretende iniciar una agresiva campaña de viajes turísticos
+aprovechando el periodo estival. Para ello selecciona las rutas turísticas que considera más atractivas, y
+decide ofertar durante todo el periodo de la campaña un servicio diario regular por dichas rutas. Es decir,
+cada uno de estos servicios diarios realiza el recorrido de una ruta con el mismo horario todos los días en
+que está programado (algunos sólo funcionan en días festivos). Evidentemente, algunas rutas con mayor
+demanda tienen varios servicios diarios. En los folletos editados figura la lista de servicios diarios
+ofertados (hora y ruta), junto con la descripción de los días en que están programados.
+Cada pasajero que contrata un viaje recibe un billete en el que figuran el nombre de la ruta, la fecha
+y hora de salida, el importe (fijo para cada ruta), y la hora de llegada prevista. También recibe un listado
+que describe, por orden cronológico, los lugares más relevantes del recorrido. La descripción consiste en
+el nombre del lugar, la hora prevista de llegada (el tiempo entre dos lugares concretos es fijo para cada
+ruta) y además, en algunos casos, la actividad a realizar (comida, visita, etc.) y el tiempo de parada
+previsto. En el momento de la compra, y únicamente para efectos promocionales (sorteos, etc.), el viajero
+debe comunicar su DNI, apellidos-nombre y teléfono al empleado de la empresa.
+Para cada uno de los viajes, la empresa asigna un autobús y un conductor concreto. Con objeto de
+simplificar la gestión, esta asignación se realiza para cada uno de los servicios diarios. Es decir, cada
+conductor realiza todos los días los mismos recorridos y, en cada uno de ellos, conduce el mismo autobús
+(depende sólo de la ruta y la hora). De cada autobús, identificado por su matrícula, se tiene información
+del modelo, fabricante, número de plazas y un texto con sus características básicas. De los conductores, su
+DNI, apellidos-nombre, teléfono, y dirección.
+La normativa de seguridad exige guardar la información de las revisiones efectuadas a cada
+vehículo: fecha de revisión, diagnóstico (un simple comentario) y, si procede, la lista de reparaciones
+efectuadas en dicha revisión (código del tipo de reparación, tiempo empleado y, a veces, un pequeño
+comentario).
+Con el fin de mejorar la calidad del servicio, la compañía desea poder conocer en cada momento la
+media de viajeros de cada ruta y de cada servicio diario, así como los km. diarios realizados por cada
+autobús y cada conductor. Además, para premiar a los mejores usuarios, también desea conocer el total de
+horas de viaje realizados por cada usuario.
+A partir de esta información, se pide:
+1) Diseñar una Base de Datos que represente la información del enunciado, utilizando el modelo E/R.
+2) Transformar el esquema anterior en un esquema relacional adecuado. 
